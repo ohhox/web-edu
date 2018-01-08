@@ -10,7 +10,6 @@ class op_slide extends functionx {
     public function __construct() {
         parent::__construct();
     }
-
     public function upload() {
         ini_set('upload_max_filesize', '0M');
 
